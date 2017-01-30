@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/com/shiro/controller/LoginController.java=UTF-8
+encoding//src/com/shiro/controller/UserController.java=UTF-8
+encoding//src/com/shiro/mail/GetCode.java=UTF-8
+encoding//src/com/shiro/mail/MailUtil.java=UTF-8
+encoding//src/com/shiro/service/MonitorRealm.java=UTF-8

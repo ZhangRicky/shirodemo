@@ -22,7 +22,7 @@ public class SNMP {
 	        //设定CommunityTarget  
 	        CommunityTarget myTarget = new CommunityTarget();  
 	        //"udp:localhost/161");
-	        Address deviceAdd = GenericAddress.parse("udp:192.168.1.114/9100"); //定义远程主机的地址  
+	        Address deviceAdd = GenericAddress.parse("udp:localhost:8080"); //定义远程主机的地址  
 	        //Address deviceAdd=new IpAddress("udp:127.0.0.1/161");  
 	        myTarget.setAddress(deviceAdd);  					//设定远程主机的地址  
 	        myTarget.setCommunity(new OctetString("public"));   //设置snmp共同体  
